@@ -1,4 +1,4 @@
-name : work-flow
+name : work-flow 1
 on : push
 
 jobs: 
