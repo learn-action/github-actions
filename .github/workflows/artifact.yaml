@@ -12,7 +12,7 @@ jobs:
       uses: actions/upload-artifact@v3   # 아티팩트 업로드
       with:
         name: artifact-test              # 아티팩트 이름
-        paths: ./hello.txt               # 업로드할 파일 경로
+        path: ./hello.txt               # 업로드할 파일 경로
 
   download-artifact:
     runs-on: ubuntu-latest
